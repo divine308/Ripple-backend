@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     MAX_FILES: int = 5000
     MAX_FILE_SIZE_MB: int = 5
 
-    CORS_ORIGINS: str = "http://localhost:5173,http://localhost:5174"
+    CORS_ORIGINS: str = "http://localhost:5173,http://localhost:5174,https://ripple-frontend-iota.vercel.app"
 
     RIPPLE_VERSION: str = "0.1.0"
 
